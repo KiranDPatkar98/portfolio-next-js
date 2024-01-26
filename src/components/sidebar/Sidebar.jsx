@@ -30,7 +30,7 @@ const Sidebar = () => {
         <li>
           <Link href="">
             <GrUserManager size={24} />
-            <span>ABOUT ME</span>
+            <span>EDUCATION & SKILLS</span>
           </Link>
         </li>
         <li>
