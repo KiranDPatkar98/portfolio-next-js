@@ -1,0 +1,18 @@
+.skills{
+    .tile{
+        /* border: 2px solid white; */
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #0c0c14;
+    }
+    .time{
+        padding: 10px;
+        background: #2fbf71;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    h6{
+        font-weight: 900;
+    }
+}

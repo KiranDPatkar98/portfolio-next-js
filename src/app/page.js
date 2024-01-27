@@ -11,10 +11,10 @@ export default function Home() {
     <main>
       {/* <Container> */}
       <Row>
-        <Col lg={3}>
+        <Col lg={3} className="fixed-sidebar">
           <Sidebar />
         </Col>
-        <Col lg={9}>
+        <Col lg={9} className="scrollable-content">
           <Content />
           <div className="line"></div>
           <Skills />
