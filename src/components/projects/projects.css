@@ -6,6 +6,15 @@
 
     .projects-info{
       margin-left: 20px;
+      .info{
+        margin-bottom: 20px;
+      }
     }
 
+}
+
+@media (max-width: 992px){
+    .projects{
+        flex-direction: column;
+    }
 }

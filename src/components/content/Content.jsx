@@ -5,7 +5,7 @@ import './content.css';
 
 const Content = () => {
   return (
-    <div className="content">
+    <div id="home" className="content">
       <div>
         <h4>Hello, Iam</h4>
         <h1>Kiran D Patkar</h1>

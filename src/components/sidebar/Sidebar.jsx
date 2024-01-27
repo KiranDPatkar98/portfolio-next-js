@@ -22,13 +22,13 @@ const Sidebar = () => {
       </div>
       <ul>
         <li>
-          <Link href="">
+          <Link href="#home">
             <IoMdHome size={24} />
             <span>HOME</span>
           </Link>
         </li>
         <li>
-          <Link href="">
+          <Link href="#skills">
             <GrUserManager size={24} />
             <span>EDUCATION & SKILLS</span>
           </Link>
@@ -46,7 +46,7 @@ const Sidebar = () => {
           </Link>
         </li>
         <li>
-          <Link href="">
+          <Link href="#contact">
             <MdContactMail size={24} />
             <span>CONTACT ME</span>
           </Link>

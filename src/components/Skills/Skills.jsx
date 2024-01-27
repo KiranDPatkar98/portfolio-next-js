@@ -11,7 +11,7 @@ const Skills = () => {
     { name: 'SQL', rating: 8 },
   ];
   return (
-    <>
+    <div id="skills">
       <h4>EDUCATION & SKILLS</h4>
       <div className="skills-container">
         <div className="education">
@@ -51,7 +51,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
