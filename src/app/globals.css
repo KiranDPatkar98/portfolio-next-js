@@ -1,13 +1,9 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
-
 body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   background-color: #16164f;
   color: #fff;
-  /* overflow-x: hidden; */
 }
-.line{
-  width: 100%;
-  outline: none;
-  border: 0.3px solid #fff;
-  padding: 0 60px;
-}
+
+

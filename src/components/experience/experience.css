@@ -1,0 +1,19 @@
+.experience{
+    display: flex;
+    background: #0c0c14;
+    padding: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+
+    .exp-info{
+        margin-left: 20px;
+    }
+    .letter-3d {
+        text-align: center;
+        flex: 0 0 10%;
+        font-size: 48px;
+        font-weight: bold;
+        color: #bf312f; /* You can adjust the color as needed */
+        margin-right: 20px;
+      }
+}

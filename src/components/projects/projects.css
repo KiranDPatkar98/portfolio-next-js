@@ -1,0 +1,11 @@
+.projects{
+    display: flex;
+    margin-bottom: 20px;
+    background: #0c0c14;
+    padding: 20px;
+
+    .projects-info{
+      margin-left: 20px;
+    }
+
+}

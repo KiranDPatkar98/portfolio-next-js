@@ -1,6 +1,7 @@
-.skills{
+.skills-container{
+    display: flex;
+
     .tile{
-        /* border: 2px solid white; */
         margin-bottom: 20px;
         padding: 20px;
         background-color: #0c0c14;
@@ -12,7 +13,50 @@
         margin-bottom: 10px;
     }
 
-    h6{
-        font-weight: 900;
+.education{
+    flex: 0 0 40%;
+    margin-right: 20px;
+}
+    .skills{
+        .skill-progress-bar {
+            height: 5px;
+            background: rgba(255, 255, 255, 0.2);
+          }  
+        .skill-item{
+            margin-top: 10px;
+        }
+        .progress-bar-inner {
+            position: relative;
+            height: 100%;
+            background-color: #2fbf71; /* Default progress bar color */
+          }
+          
+          /* Style inner progress bars based on rating */
+          [data-rating="8"] .progress-bar-inner {
+            width: 80%;
+          }
+          
+          [data-rating="9"] .progress-bar-inner {
+            width: 90%;
+          }
+          
+          [data-rating="7"] .progress-bar-inner {
+            width: 70%;
+          }
+          span{
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: #2fbf71;
+            position: absolute;
+            right: -1px;
+            top: -5px;
+          }
+    }
+}
+
+@media(max-width:992px){
+    .skills-container{
+        flex-direction: column;
     }
 }

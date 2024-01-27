@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    flex: 0 0 300px;
+    height: 100%;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+  
+  }
+  
+  .line {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* Media query for medium screens */
+@media (max-width: 992px) {
+    .container {
+      height: auto;
+      flex-direction: column; 
+    }
+  
+    .sidebar {
+      width: 100%; 
+      height: auto;
+    }
+  }
+  

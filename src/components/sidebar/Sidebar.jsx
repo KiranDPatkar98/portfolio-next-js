@@ -34,13 +34,13 @@ const Sidebar = () => {
           </Link>
         </li>
         <li>
-          <Link href="">
+          <Link href="#experience">
             <GrUserManager size={24} />
             <span>EXPERIENCE</span>
           </Link>
         </li>
         <li>
-          <Link href="">
+          <Link href="#projects">
             <GrProjects size={24} />
             <span>PROJECTS</span>
           </Link>

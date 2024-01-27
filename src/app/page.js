@@ -1,26 +1,25 @@
-'use client ';
 import Sidebar from '@/components/sidebar/Sidebar';
-import { Col, Container, Row } from 'react-bootstrap';
 import Content from '@/components/content/Content';
 import Skills from '@/components/Skills/Skills';
-// import { useState } from 'react';
+import styles from './page.module.css';
+import Experience from '@/components/experience/Experience';
+import Projects from '@/components/projects/Projects';
 
 export default function Home() {
-  // const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   return (
-    <main>
-      {/* <Container> */}
-      <Row>
-        <Col lg={3} className="fixed-sidebar">
-          <Sidebar />
-        </Col>
-        <Col lg={9} className="scrollable-content">
-          <Content />
-          <div className="line"></div>
-          <Skills />
-        </Col>
-      </Row>
-      {/* </Container> */}
+    <main className={styles.container}>
+      <div className={styles.sidebar}>
+        <Sidebar />
+      </div>
+      <div className={styles.content}>
+        <Content />
+        <div className={styles.line}></div>
+        <Skills />
+        <div className={styles.line}></div>
+        <Experience />
+        <div className={styles.line}></div>
+        <Projects />
+      </div>
     </main>
   );
 }

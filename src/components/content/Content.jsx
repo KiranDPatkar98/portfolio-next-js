@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
 import Image from 'next/image';
 
 import './content.css';
@@ -8,14 +7,14 @@ const Content = () => {
   return (
     <div className="content">
       <div>
-        <h6>Hello, Iam</h6>
+        <h4>Hello, Iam</h4>
         <h1>Kiran D Patkar</h1>
-        <h6>I am Passionate Web Developer </h6>
+        <h4>I am Passionate Web Developer </h4>
         <p>
           I design and develop services for customers of all sizes, specializing
           in creating stylish, modern websites, web services and online stores.
         </p>
-        <Button className="download">Download CV</Button>
+        <button className="download">Download CV</button>
       </div>
       <Image
         src="/images/image1.jpg"
