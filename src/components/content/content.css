@@ -36,4 +36,9 @@
    .content{
       flex-direction: column-reverse;
    }
+   img{
+      width:80%;
+      margin: 0 auto;
+    
+   }
 }

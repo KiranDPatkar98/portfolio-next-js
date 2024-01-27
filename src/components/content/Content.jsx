@@ -17,8 +17,8 @@ const Content = () => {
         <button className="download">Download CV</button>
       </div>
       <Image
-        src="/images/image1.jpg"
-        width={400}
+        src="/images/profile.jpg"
+        width={800}
         height={400}
         alt="Picture of the author"
       />
