@@ -17,4 +17,7 @@
     .projects{
         flex-direction: column;
     }
+    video{
+      width: 100%
+    }
 }

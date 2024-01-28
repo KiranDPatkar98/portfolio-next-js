@@ -1,7 +1,6 @@
 .home{
     display: flex;
-    margin-top: 10vh;
-
+    
     .description{
        flex: 0 0 60%
     }
