@@ -1,57 +1,58 @@
-.sidebar-container{
+.sidebar-container {
     background-color: #0c0c14;
     height: 100%;
     position: relative;
+}
 
-    .profile{
-        padding-top: 15vh;
-        text-align: center;
+.sidebar-container .profile {
+    padding-top: 15vh;
+    text-align: center;
+}
 
-        img{
-            padding: 7px; 
-            background-color: white;
-            border-radius: 50%;
-        }  
-        h6{
-           margin-top: 6px;
-        }
-    }
+.sidebar-container .profile img {
+    padding: 7px;
+    background-color: white;
+    border-radius: 50%;
+}
 
-    ul{
-        list-style: none;
-        padding-top: 45px;
-        li{
-            width: 100%;
-            margin-bottom: 1rem;
-            a{
-                display: flex;
-                align-items: center;
-                text-decoration: none;
-                color: white;
+.sidebar-container .profile h6 {
+    margin-top: 6px;
+}
 
-                span{
-                    margin-left: 10px;
-                }
-            }
+.sidebar-container ul {
+    list-style: none;
+    padding-top: 45px;
+}
 
-        }
-    }
+.sidebar-container ul li {
+    width: 100%;
+    margin-bottom: 1rem;
+}
 
-    .social-media{
-        display: flex;
-        justify-content: space-evenly;
-      
+.sidebar-container ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
 
-        a{
-            text-decoration: none;
-            color: white;
-            transition: transform 0.3s ease;
-        }
-        a:hover{
-              transform: scale(1.2);
-              }
-    }
+.sidebar-container ul li a span {
+    margin-left: 10px;
+}
 
+.sidebar-container .social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sidebar-container .social-media a {
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.sidebar-container .social-media a:hover {
+    transform: scale(1.2);
 }
 
 .half-circle {
@@ -59,22 +60,19 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 80px; 
-    background-color: #2fbf71; 
-    border-radius: 0 0 50% 50%; 
-  }
+    height: 80px;
+    background-color: #2fbf71;
+    border-radius: 0 0 50% 50%;
+}
 
-  @media (max-width: 992px) {
-    .sidebar-container{
-
-    img{
-       width:90px;
-       height:90px;
-       margin: 0 auto;
-     
+@media (max-width: 992px) {
+    .sidebar-container img {
+        width: 90px;
+        height: 90px;
+        margin: 0 auto;
     }
-    .social-media{
+
+    .sidebar-container .social-media {
         margin-bottom: 20px;
     }
 }
- }

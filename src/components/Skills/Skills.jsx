@@ -50,10 +50,9 @@ const Skills = () => {
         <div className="skills">
           <h4>My skills</h4>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-            repellendus nulla at quaerat consequuntur vitae. Neque libero,
-            facilis, quasi doloremque at quas illo laborum nulla cupiditate
-            dolores, eaque error beatae?
+            I'm a Frontend Developer with over 3 years of experience. I code and
+            create web elements for amazing people around the world. I like to
+            work with new people. New people, new Experiences.
             {skillsData.map((skill, index) => (
               <div key={index} className="skill-item">
                 <p>{skill.name}</p>
