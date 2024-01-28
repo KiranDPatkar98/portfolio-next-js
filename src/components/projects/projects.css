@@ -1,28 +1,29 @@
-.projects{
-    display: flex;
-    margin-bottom: 20px;
-    background: #0c0c14;
-    padding: 20px;
-
-    .projects-info{
-      margin-left: 20px;
-      .info{
-        margin-bottom: 20px;
-      }
-      a{
-        color: blue;
-        word-break: break-all;
-      }
-    }
-    
-
+.projects {
+  display: flex;
+  margin-bottom: 20px;
+  background: #0c0c14;
+  padding: 20px;
 }
 
-@media (max-width: 992px){
-    .projects{
-        flex-direction: column;
-    }
-    video{
-      width: 100%
-    }
+.projects .projects-info {
+  margin-left: 20px;
+}
+
+.projects .projects-info .info {
+  margin-bottom: 20px;
+}
+
+.projects .projects-info a {
+  color: blue;
+  word-break: break-all;
+}
+
+@media (max-width: 992px) {
+  .projects {
+      flex-direction: column;
+  }
+
+  video {
+      width: 100%;
+  }
 }
