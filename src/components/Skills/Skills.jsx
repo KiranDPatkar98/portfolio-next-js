@@ -2,6 +2,27 @@ import React from 'react';
 import './skills.css';
 
 const Skills = () => {
+  const education = [
+    {
+      time: '2016-2020',
+      title: 'Bachelor of engineering',
+      place: 'NMAMIT Nitte, Udupi',
+      marks: '8.30 CGPA',
+    },
+    {
+      time: '2014-2016',
+      title: 'Pre-university course',
+      place: 'St. Lawrence, Moodubelle',
+      marks: '89.76%',
+    },
+    {
+      time: '2011-2014',
+      title: 'SSLC',
+      place: 'GPUC, Bailore',
+      marks: '89.66%',
+    },
+  ];
+
   const skillsData = [
     { name: 'JavaScript', rating: 9 },
     { name: 'React', rating: 9 },
@@ -15,21 +36,16 @@ const Skills = () => {
       <h4>EDUCATION & SKILLS</h4>
       <div className="skills-container">
         <div className="education">
-          <div className="tile">
-            <div className="time">2016-2020</div>
-            <h4>Bachelor of engineering</h4>
-            <div> NMAMIT Nitte, Udupi</div>
-          </div>
-          <div className="tile">
-            <div className="time">2014-2016</div>
-            <h4>Secondary education</h4>
-            <div>St. Lawrence, Moodubelle</div>
-          </div>
-          <div className="tile">
-            <div className="time">2011-2014</div>
-            <h4>SSLC</h4>
-            <div>GPUC, Bailore</div>
-          </div>
+          {education.map((value) => (
+            <div className="tile" key={value.title}>
+              <div className="time">{value.time}</div>
+              <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                <h4>{value.title}</h4>
+                <h4>{value.marks}</h4>
+              </div>
+              <div>{value.place}</div>
+            </div>
+          ))}
         </div>
         <div className="skills">
           <h4>My skills</h4>

@@ -1,6 +1,10 @@
-.content{
+.home{
     display: flex;
     margin-top: 10vh;
+
+    .description{
+       flex: 0 0 60%
+    }
 
     
     h4{
@@ -21,6 +25,8 @@
      }
 
      .download{
+        cursor: pointer;
+        color: #fff;
         background: #2fbf71;
         padding: 0 25px;
         font-size: 14px;
@@ -33,7 +39,7 @@
 }
 
 @media (max-width: 992px) {
-   .content{
+   .home{
       flex-direction: column-reverse;
    }
    img{

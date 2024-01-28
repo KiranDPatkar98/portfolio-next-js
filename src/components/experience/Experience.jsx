@@ -7,19 +7,13 @@ const Experience = () => {
       logo: 'E',
       title: 'Software Engineer-2',
       company: 'Estuate Software Pvt Ltd | Sep 2021 - Present',
-      info: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt,
-            quidem! Molestiae iste ipsam voluptates nihil. Quibusdam illum non
-            voluptatibus, pariatur dignissimos animi ipsam, omnis natus, cum
-            recusandae beatae perferendis ipsa.`,
+      info: 'As a Frontend Developer at Estuate, Inc., I create cutting-edge solutions and interactive designs for a variety of clients and projects. I leverage my skills in  Javascript, React, Python, and CSS to build user-friendly and responsive web applications that meet the needs and expectations of the end-users.',
     },
     {
       logo: 'I',
       title: 'Internship Trainee',
       company: 'Ironhawks Technologies | Mar 2021 - Aug 2021',
-      info: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt,
-              quidem! Molestiae iste ipsam voluptates nihil. Quibusdam illum non
-              voluptatibus, pariatur dignissimos animi ipsam, omnis natus, cum
-              recusandae beatae perferendis ipsa.`,
+      info: 'Specialized in crafting engaging web pages with HTML, CSS, and JavaScript. Emphasized responsive design, cross-browser compatibility, and collaborative project execution.',
     },
   ];
 
@@ -29,7 +23,7 @@ const Experience = () => {
 
       {experience.map((value) => {
         return (
-          <div className="experience">
+          <div className="experience" key={value.company}>
             <div className="letter-3d">{value.logo}</div>
             <div className="exp-info">
               <div className="title">{value.title}</div>

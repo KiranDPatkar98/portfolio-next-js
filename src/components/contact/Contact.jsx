@@ -17,16 +17,34 @@ const Contact = () => {
           projects. Feel free to reach out!
         </p>
         <div className="contact-details">
-          <div style={{ display: 'flex', marginBottom: '10px' }}>
-            <MdEmail size={24} style={{ marginRight: '10px' }} />
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              marginBottom: '10px',
+            }}
+          >
+            <MdEmail size={24} style={{ marginRight: '20px' }} />
             kirandpatkar@gmail.com
           </div>
-          <div style={{ display: 'flex', marginBottom: '10px' }}>
-            <FaPhoneAlt size={24} style={{ marginRight: '10px' }} /> +91
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              marginBottom: '10px',
+            }}
+          >
+            <FaPhoneAlt size={24} style={{ marginRight: '20px' }} /> +91
             9482911842
           </div>
-          <div style={{ display: 'flex', marginBottom: '10px' }}>
-            <FaAddressCard size={24} style={{ marginRight: '10px' }} />{' '}
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              marginBottom: '10px',
+            }}
+          >
+            <FaAddressCard size={24} style={{ marginRight: '20px' }} />{' '}
             Bangalore, Karnataka, India
           </div>
         </div>

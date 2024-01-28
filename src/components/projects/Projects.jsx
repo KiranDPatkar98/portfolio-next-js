@@ -15,7 +15,7 @@ const Projects = () => {
     {
       src: '/videos/blood-bank.mp4',
       title: 'Blood Bank',
-      info: `Web application overseeing blood collection, donation, and requests`,
+      info: `Web application managing blood collections, donations and requests`,
       source: 'https://github.com/KiranDPatkar98/Blood-Bank',
       url: '',
     },
@@ -26,7 +26,7 @@ const Projects = () => {
 
       {projects.map((value) => {
         return (
-          <div className="projects">
+          <div className="projects" key={value.title}>
             <video width="350" controls>
               <source src={value.src} type="video/mp4" />
               Your browser does not support HTML video.
