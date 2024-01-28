@@ -47,3 +47,11 @@
        margin: 0 auto;
    }
 }
+
+@media (max-width: 576px) {
+   .home img {
+      width: 60%;
+      margin: 0 auto;
+      height: 30vh;
+  }
+}
